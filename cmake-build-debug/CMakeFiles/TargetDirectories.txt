@@ -1,3 +1,0 @@
-/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/cmake-build-debug/CMakeFiles/edit_cache.dir
-/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/cmake-build-debug/CMakeFiles/MNA_circuits.dir

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/MNA_circuits.dir/main.cpp.o CMakeFiles/MNA_circuits.dir/Matrix.cpp.o CMakeFiles/MNA_circuits.dir/Netlist.cpp.o  -o MNA_circuits 
