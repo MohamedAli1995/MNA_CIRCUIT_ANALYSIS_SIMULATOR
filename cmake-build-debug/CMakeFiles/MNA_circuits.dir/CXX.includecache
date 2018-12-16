@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/syrix/CLionProjects/MNA_circuits/Matrix.cpp
+/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Matrix.cpp
 Matrix.h
-/home/syrix/CLionProjects/MNA_circuits/Matrix.h
+/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Matrix.h
 
-/home/syrix/CLionProjects/MNA_circuits/Matrix.h
+/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Matrix.h
 
-/home/syrix/CLionProjects/MNA_circuits/Netlist.cpp
+/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Netlist.cpp
 Netlist.h
-/home/syrix/CLionProjects/MNA_circuits/Netlist.h
+/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Netlist.h
 
-/home/syrix/CLionProjects/MNA_circuits/Netlist.h
+/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Netlist.h
 vector
 -
 algorithm
@@ -28,7 +28,7 @@ fstream
 iostream
 -
 
-/home/syrix/CLionProjects/MNA_circuits/Simulator.h
+/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Simulator.h
 vector
 -
 algorithm
@@ -42,19 +42,19 @@ fstream
 iostream
 -
 Netlist.h
-/home/syrix/CLionProjects/MNA_circuits/Netlist.h
+/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Netlist.h
 
-/home/syrix/CLionProjects/MNA_circuits/assignment2_modeling.h
+/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/assignment2_modeling.h
 iostream
 -
 string
 -
 Matrix.h
-/home/syrix/CLionProjects/MNA_circuits/Matrix.h
+/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Matrix.h
 
-/home/syrix/CLionProjects/MNA_circuits/main.cpp
+/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/main.cpp
 assignment2_modeling.h
-/home/syrix/CLionProjects/MNA_circuits/assignment2_modeling.h
+/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/assignment2_modeling.h
 Simulator.h
-/home/syrix/CLionProjects/MNA_circuits/Simulator.h
+/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Simulator.h
 

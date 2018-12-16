@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/syrix/CLionProjects/MNA_circuits/Matrix.cpp" "/home/syrix/CLionProjects/MNA_circuits/cmake-build-debug/CMakeFiles/MNA_circuits.dir/Matrix.cpp.o"
-  "/home/syrix/CLionProjects/MNA_circuits/Netlist.cpp" "/home/syrix/CLionProjects/MNA_circuits/cmake-build-debug/CMakeFiles/MNA_circuits.dir/Netlist.cpp.o"
-  "/home/syrix/CLionProjects/MNA_circuits/main.cpp" "/home/syrix/CLionProjects/MNA_circuits/cmake-build-debug/CMakeFiles/MNA_circuits.dir/main.cpp.o"
+  "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Matrix.cpp" "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/cmake-build-debug/CMakeFiles/MNA_circuits.dir/Matrix.cpp.o"
+  "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Netlist.cpp" "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/cmake-build-debug/CMakeFiles/MNA_circuits.dir/Netlist.cpp.o"
+  "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/main.cpp" "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/cmake-build-debug/CMakeFiles/MNA_circuits.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

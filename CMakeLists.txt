@@ -1,9 +1,6 @@
-﻿# CMakeList.txt : Top-level CMake project file, do global configuration
-# and include sub-projects here.
-#
-cmake_minimum_required (VERSION 3.8)
+cmake_minimum_required(VERSION 3.9)
+project(MNA_circuits)
 
-project ("assignment2_modeling")
+set(CMAKE_CXX_STANDARD 11)
 
-# Include sub-projects.
-add_subdirectory ("assignment2_modeling")
+add_executable(MNA_circuits main.cpp assignment2_modeling.h Matrix.cpp Matrix.h Netlist.h Netlist.cpp Simulator.h)

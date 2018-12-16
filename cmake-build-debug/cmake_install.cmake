@@ -1,4 +1,4 @@
-# Install script for directory: /home/syrix/CLionProjects/MNA_circuits
+# Install script for directory: /media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/syrix/CLionProjects/MNA_circuits/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

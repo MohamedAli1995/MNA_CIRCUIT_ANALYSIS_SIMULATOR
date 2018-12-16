@@ -43,10 +43,10 @@ RM = /home/syrix/Downloads/CLion-2017.3.4/clion-2017.3.4/bin/cmake/bin/cmake -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/syrix/CLionProjects/MNA_circuits
+CMAKE_SOURCE_DIR = "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/syrix/CLionProjects/MNA_circuits/cmake-build-debug
+CMAKE_BINARY_DIR = "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MNA_circuits.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/MNA_circuits.dir/flags.make
 
 CMakeFiles/MNA_circuits.dir/main.cpp.o: CMakeFiles/MNA_circuits.dir/flags.make
 CMakeFiles/MNA_circuits.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/syrix/CLionProjects/MNA_circuits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MNA_circuits.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MNA_circuits.dir/main.cpp.o -c /home/syrix/CLionProjects/MNA_circuits/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MNA_circuits.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MNA_circuits.dir/main.cpp.o -c "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/main.cpp"
 
 CMakeFiles/MNA_circuits.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MNA_circuits.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/syrix/CLionProjects/MNA_circuits/main.cpp > CMakeFiles/MNA_circuits.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/main.cpp" > CMakeFiles/MNA_circuits.dir/main.cpp.i
 
 CMakeFiles/MNA_circuits.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MNA_circuits.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/syrix/CLionProjects/MNA_circuits/main.cpp -o CMakeFiles/MNA_circuits.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/main.cpp" -o CMakeFiles/MNA_circuits.dir/main.cpp.s
 
 CMakeFiles/MNA_circuits.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/MNA_circuits.dir/main.cpp.o.provides.build: CMakeFiles/MNA_circuits.d
 
 CMakeFiles/MNA_circuits.dir/Matrix.cpp.o: CMakeFiles/MNA_circuits.dir/flags.make
 CMakeFiles/MNA_circuits.dir/Matrix.cpp.o: ../Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/syrix/CLionProjects/MNA_circuits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MNA_circuits.dir/Matrix.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MNA_circuits.dir/Matrix.cpp.o -c /home/syrix/CLionProjects/MNA_circuits/Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MNA_circuits.dir/Matrix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MNA_circuits.dir/Matrix.cpp.o -c "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Matrix.cpp"
 
 CMakeFiles/MNA_circuits.dir/Matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MNA_circuits.dir/Matrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/syrix/CLionProjects/MNA_circuits/Matrix.cpp > CMakeFiles/MNA_circuits.dir/Matrix.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Matrix.cpp" > CMakeFiles/MNA_circuits.dir/Matrix.cpp.i
 
 CMakeFiles/MNA_circuits.dir/Matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MNA_circuits.dir/Matrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/syrix/CLionProjects/MNA_circuits/Matrix.cpp -o CMakeFiles/MNA_circuits.dir/Matrix.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Matrix.cpp" -o CMakeFiles/MNA_circuits.dir/Matrix.cpp.s
 
 CMakeFiles/MNA_circuits.dir/Matrix.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/MNA_circuits.dir/Matrix.cpp.o.provides.build: CMakeFiles/MNA_circuits
 
 CMakeFiles/MNA_circuits.dir/Netlist.cpp.o: CMakeFiles/MNA_circuits.dir/flags.make
 CMakeFiles/MNA_circuits.dir/Netlist.cpp.o: ../Netlist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/syrix/CLionProjects/MNA_circuits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MNA_circuits.dir/Netlist.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MNA_circuits.dir/Netlist.cpp.o -c /home/syrix/CLionProjects/MNA_circuits/Netlist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MNA_circuits.dir/Netlist.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MNA_circuits.dir/Netlist.cpp.o -c "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Netlist.cpp"
 
 CMakeFiles/MNA_circuits.dir/Netlist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MNA_circuits.dir/Netlist.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/syrix/CLionProjects/MNA_circuits/Netlist.cpp > CMakeFiles/MNA_circuits.dir/Netlist.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Netlist.cpp" > CMakeFiles/MNA_circuits.dir/Netlist.cpp.i
 
 CMakeFiles/MNA_circuits.dir/Netlist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MNA_circuits.dir/Netlist.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/syrix/CLionProjects/MNA_circuits/Netlist.cpp -o CMakeFiles/MNA_circuits.dir/Netlist.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/Netlist.cpp" -o CMakeFiles/MNA_circuits.dir/Netlist.cpp.s
 
 CMakeFiles/MNA_circuits.dir/Netlist.cpp.o.requires:
 
@@ -143,7 +143,7 @@ MNA_circuits: CMakeFiles/MNA_circuits.dir/Matrix.cpp.o
 MNA_circuits: CMakeFiles/MNA_circuits.dir/Netlist.cpp.o
 MNA_circuits: CMakeFiles/MNA_circuits.dir/build.make
 MNA_circuits: CMakeFiles/MNA_circuits.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/syrix/CLionProjects/MNA_circuits/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MNA_circuits"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MNA_circuits"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MNA_circuits.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -162,6 +162,6 @@ CMakeFiles/MNA_circuits.dir/clean:
 .PHONY : CMakeFiles/MNA_circuits.dir/clean
 
 CMakeFiles/MNA_circuits.dir/depend:
-	cd /home/syrix/CLionProjects/MNA_circuits/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/syrix/CLionProjects/MNA_circuits /home/syrix/CLionProjects/MNA_circuits /home/syrix/CLionProjects/MNA_circuits/cmake-build-debug /home/syrix/CLionProjects/MNA_circuits/cmake-build-debug /home/syrix/CLionProjects/MNA_circuits/cmake-build-debug/CMakeFiles/MNA_circuits.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits" "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits" "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/cmake-build-debug" "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/cmake-build-debug" "/media/syrix/programms/lectures/Modeling _ Simulation/Assignment 2/assignment2_modeling/MNA_CIRCUIT_ANALYSIS_SIMULATOR/MNA_circuits/cmake-build-debug/CMakeFiles/MNA_circuits.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/MNA_circuits.dir/depend
 
