@@ -3,4 +3,4 @@ project(MNA_circuits)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(MNA_circuits main.cpp assignment2_modeling.h Matrix.cpp Matrix.h Netlist.h Netlist.cpp Simulator.h)
+add_executable(MNA_circuits main.cpp  Matrix.cpp Matrix.h Netlist.h Netlist.cpp Simulator.h)

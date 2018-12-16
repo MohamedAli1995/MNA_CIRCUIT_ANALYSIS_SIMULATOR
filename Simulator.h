@@ -5,6 +5,7 @@
 #include<fstream>
 #include<iostream>
 #include "Netlist.h"
+#include "Matrix.h"
 
 class Simulator {
 private:
