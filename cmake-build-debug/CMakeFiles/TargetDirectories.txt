@@ -1,0 +1,3 @@
+/home/syrix/CLionProjects/MNA_circuits/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/syrix/CLionProjects/MNA_circuits/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/syrix/CLionProjects/MNA_circuits/cmake-build-debug/CMakeFiles/MNA_circuits.dir
