@@ -2,11 +2,13 @@
 
 void Netlist::addComponent(int type, int src, int dst, double value, double initialValue) {
 	if (type == CAPACITOR) {
+		this->hasActiveComponents = true;
 		components.push_back(Component(CURRENT_SOURCE, src, dst, initialValue * (value / 0.1) , initialValue, (value / 0.1), true));
 		components.push_back(Component(RESISTANCE, src, dst, (0.1 / value), 0));
 		//std::cout << " capacitor value " << (value / 0.1) << std::endl;
 	}
 	else if (type == INDUCTOR) {
+		this->hasActiveComponents = true;
 		components.push_back(Component(VOLTAGE_SOURCE, src, dst, initialValue * (-value / 0.1), initialValue, (-value / 0.1), true, true));
 		//components.push_back(Component(RESISTANCE, src, dst, (value / 0.1), 0));
 		//std::cout << " Inductor value " << (-value / 0.1) << std::endl;
@@ -64,7 +66,6 @@ void Netlist::parseFile(std::string fileName) {
 		case 'I':
 			if (compType.size() == 1) {
 				type = INDUCTOR;
-				std::cout << "idsafdkfldajf" << std::endl;
 			}
 			else {
 				type = CURRENT_SOURCE;

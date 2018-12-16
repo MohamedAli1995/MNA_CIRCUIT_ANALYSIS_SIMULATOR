@@ -25,6 +25,7 @@ struct Component {
 };
 class Netlist {
 public:
+	bool hasActiveComponents = false;
 	std::vector<Component> components;
 	void addComponent(int type, int src, int dst, double value, double InitialValue);
 	
