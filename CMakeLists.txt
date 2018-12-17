@@ -1,23 +1,24 @@
 cmake_minimum_required(VERSION 3.9)
 project(MNA_circuits)
-
+enable_testing()
 set(CMAKE_CXX_STANDARD 11)
 
-
-message(STATUS "start running cmake...")
-
-find_package(Boost COMPONENTS unit_test_framework REQUIRED)
-
-
-# Unit tests
-add_subdirectory(testbench)
-
-include_directories(${Boost_INCLUDE_DIRS})
+find_package(Boost COMPONENTS system filesystem unit_test_framework REQUIRED)
+SET(SourceDir src)
+SET(TestDir testbench)
 
 
-add_executable(MNA_circuits src/main.cpp src/Matrix.cpp src/Matrix.h src/Netlist.h src/Netlist.cpp src/Simulator.h )
+FILE(GLOB_RECURSE  SourceFilesWithMain ${SourceDir}/main.cpp  ${SourceDir}/Matrix.cpp  ${SourceDir}/Matrix.h  ${SourceDir}/Netlist.cpp  ${SourceDir}/Netlist.h  ${SourceDir}/Simulator.h)
+FILE(GLOB_RECURSE  SourceFiles  ${SourceDir}/Matrix.cpp  ${SourceDir}/Matrix.h  ${SourceDir}/Netlist.cpp  ${SourceDir}/Netlist.h  ${SourceDir}/Simulator.h)
 
 
-target_link_libraries(MNA_circuits ${Boost_FILESYSTEM_LIBRARY}
-        ${Boost_SYSTEM_LIBRARY}
-        ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY})
+add_executable(MNA_circuit ${SourceFilesWithMain})
+add_executable(demo1 ${TestDir}/demo1.cpp ${SourceFiles})
+target_link_libraries(demo1 ${Boost_FILESYSTEM_LIBRARY} ${Boost_SYSTEM_LIBRARY} ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY} )
+
+
+### indicates the include paths
+#target_include_directories(demo1 PRIVATE ${BOOST_INCLUDE_DIRS})
+
+### declares a test with our executable
+#add_test(NAME test1 COMMAND test_executable)

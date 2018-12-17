@@ -4,7 +4,16 @@
 #include<iostream>
 #include<string>
 
+
+#define BOOST_TEST_MAIN
+
+
+//#define BOOST_TEST_DYN_LINK
+
+
+
 #define BOOST_TEST_MODULE ADDITION_TEST
+
 #include<boost/test/unit_test.hpp>
 
 int add( int i, int j ) { return i+j; }
