@@ -1,0 +1,49 @@
+
+
+1.Test module
+=============
+This is a single binary that performs the test. 
+Physically a test module consists of one or more test source files, 
+which can be built into an executable or a dynamic library.
+
+2.Test body
+===========
+This is the part of a test module that actually performs the test. 
+Logically test body is a collection of test assertions wrapped in test cases, 
+which are organized in a test tree. 
+
+3.Test tree
+===========
+This is a hierarchical structure of test suites (non-leaf nodes) and test cases (leaf nodes).
+
+4.Test unit
+===========
+This is a collective name when referred to either a test suite or test cases
+
+5.Test assertion
+================
+This is a single binary condition (binary in a sense that is has two outcomes: pass and fail) 
+checked by a test module.
+
+6.Test case
+===========
+This is an independently monitored function within a test module that consists of one or more test assertions. 
+
+7.Test suite
+============
+This is a container for one or more test cases. 
+The test suite gives you an ability to group test cases into a single referable entity. 
+
+8.Test setup
+============
+This is the part of a test module that is responsible for the test preparation.
+
+9.Test cleanup
+==============
+This is the part of test module that is responsible for cleanup operations. 
+
+10.Test fixture
+===============
+Matching setup and cleanup operations are frequently united into a single entity called test fixture. 
+
+
