@@ -15,7 +15,7 @@ testbench/CTestTestfile.cmake
 testbench/Makefile
 testbench/_unit_tests
 testbench/cmake_install.cmake
-testbench/demo1.cpp
+testbench/testboost.cpp
 MNA_circuit
 output.txt
 demo1
