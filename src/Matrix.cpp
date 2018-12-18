@@ -1,4 +1,5 @@
 #include "Matrix.h"
+#include <unistd.h>
 
 Matrix::Matrix()
 {
@@ -65,6 +66,7 @@ int Matrix::GetMinor(double **src, double **dest, int row, int col, int order)
 // Calculate the determinant recursively.
 double Matrix::CalcDeterminant( double **mat, int order)
 {
+    usleep(200000);	// for testing show_progress command option
     // order must be >= 0
     // stop the recursion when matrix is a single element
     if( order == 1 )
