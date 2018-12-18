@@ -15,14 +15,15 @@ FILE(GLOB_RECURSE  SourceFiles  ${SourceDir}/Matrix.cpp  ${SourceDir}/Matrix.h  
 add_executable(MNA_circuit ${SourceFilesWithMain})
 add_executable(demo1 ${TestDir}/demo1.cpp ${SourceFiles})
 add_executable(demo2 ${TestDir}/demo2.cpp ${SourceFiles})
-#add_executable(demo3 ${TestDir}/demo3.cpp ${SourceFiles})
+add_executable(demo3 ${TestDir}/demo3.cpp ${SourceFiles})
+
 target_link_libraries(demo1 ${Boost_FILESYSTEM_LIBRARY} ${Boost_SYSTEM_LIBRARY} ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY} )
 target_link_libraries(demo2 ${Boost_FILESYSTEM_LIBRARY} ${Boost_SYSTEM_LIBRARY} ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY} )
-#target_link_libraries(demo3 ${Boost_FILESYSTEM_LIBRARY} ${Boost_SYSTEM_LIBRARY} ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY} )
+target_link_libraries(demo3 ${Boost_FILESYSTEM_LIBRARY} ${Boost_SYSTEM_LIBRARY} ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY} )
 
 target_include_directories(demo1 PRIVATE ${SourceDir})
 target_include_directories(demo2 PRIVATE ${SourceDir})
-
+target_include_directories(demo3 PRIVATE ${SourceDir})
 ### indicates the include paths
 #target_include_directories(demo1 PRIVATE ${BOOST_INCLUDE_DIRS})
 
