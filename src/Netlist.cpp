@@ -33,7 +33,7 @@ int Netlist::getVoltageSourceCount() {
 		if (comp.type == VOLTAGE_SOURCE) {
 			voltageSourceCount++;
 		}
-		
+
 	}
 	return voltageSourceCount;
 }
@@ -48,10 +48,10 @@ void Netlist::parseFile(std::string fileName) {
 	if (!file)
 		std::cerr << "Cant open input file " << std::endl;
 	while (file >> compType >> dst >> src >> value >> initialValue) {
-		std::cout << " " << compType << " " << dst << " " << src << " " << value << " " << initialValue << std::endl;
+		//std::cout << " " << compType << " " << dst << " " << src << " " << value << " " << initialValue << std::endl;
 		compType.erase(std::remove(compType.begin(), compType.end(), ' '),
 			compType.end());
-		
+
 		int type;
 		switch (compType[0]) {
 		case'R':
@@ -94,5 +94,3 @@ Component::Component(int type, int src, int dst, double value, double initialVal
 	this->needEvaluation = needEvaluation;
 	this->generatedFromInductor = generatedFromInductor;
 }
-
-
