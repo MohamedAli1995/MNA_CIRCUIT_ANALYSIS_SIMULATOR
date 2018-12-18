@@ -24,11 +24,12 @@ struct Component {
 		bool needEvaluation=false, bool generatedFromInductor=false);
 };
 class Netlist {
+private:
+	void addComponent(int type, int src, int dst, double value, double InitialValue);
 public:
 	bool hasActiveComponents = false;
 	std::vector<Component> components;
-	void addComponent(int type, int src, int dst, double value, double InitialValue);
-	
+
 	int getNodesCount();
 
 	int getVoltageSourceCount();
