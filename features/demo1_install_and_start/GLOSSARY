@@ -46,4 +46,9 @@ This is the part of test module that is responsible for cleanup operations.
 ===============
 Matching setup and cleanup operations are frequently united into a single entity called test fixture. 
 
+11.Test Decorator
+=================
+Decorator is a uniform mechanism for updating various attributes of the automatically registered test units.
+These attributes affect how the test tree is processed during the execution of the test module
+
 

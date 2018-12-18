@@ -1,0 +1,6 @@
+to execute this demo
+run these 2 commands in the terminal
+|--------------------------------------------------------------------------------------|
+| $g++ test.cpp && ./a.out --report_level=detailed --log_level=all --run_test=@trivial |
+| $g++ test.cpp && ./a.out --report_level=detailed --log_level=all --run_test=@cmp     |
+|--------------------------------------------------------------------------------------|
