@@ -87,9 +87,9 @@ BOOST_AUTO_TEST_SUITE_END()
 
 
 
-BOOST_AUTO_TEST_SUITE(initilzeMatrix_suite/*,* utf::fixture<MatrixTest>()*/)//to uncomment this part -> update the test case header
+BOOST_FIXTURE_TEST_SUITE(initilzeMatrix_suite,MatrixTest/*,* utf::fixture<MatrixTest>()*/)//to uncomment this part -> update the test case header
 
-BOOST_FIXTURE_TEST_CASE(zeors_Test,MatrixTest) {
+BOOST_AUTO_TEST_CASE(zeors_Test) {
   matrix.initilzeMatrix(a, n + m, n + m);
   for(int i =0 ; i<n ; i++){
     for(int j =0 ; j<m ; j++){

@@ -83,6 +83,7 @@ BOOST_AUTO_TEST_CASE(Negative_Determinant_Test){
   a[2][0]=1;
   a[2][1]=1;
   a[2][2]=6;
+  for(int i =0 ;i < 1000000000 ; i++){}
   BOOST_CHECK(matrix.CalcDeterminant(a,3)==-50);
   for (int i = 0; i < n + m; i++)
   delete[] a[i];
